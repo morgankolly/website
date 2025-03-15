@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>contact us </title>
 </head> 
 <body>
@@ -34,10 +32,25 @@
             <input type="text" id="name " name="name" required>
             <label for="number">Phone number</label>
             <input type="number" id="number" name="Phone number" required >
-            <label for="password">Password</label>
-            <input type="password" id="password " name="password" required min="8" max="20" >
             <label for="Email">Email</label>
             <input type="email" id="email adress" name="email" required> 
+            <label for="password">Password</label>
+            <input type="password" id="password " name="password" required min="8" max="20" >
+            <label type="radio"> Gender:</label>
+            <input type="radio" id="male" name="gender"> Male
+            <input type="radio" id="female" name="gender"> Female
+            <input type="radio" id="other" name="gender"> Other
 
+            <input type="date" id="birthday" name="birthday">
+            <input type="submit" value="submit">
+<style>
+    body{
+        text-align:left;
+    }
+    form{
+        margin: 10px;
+    }
+</style>
 </body>
+
 </html>
