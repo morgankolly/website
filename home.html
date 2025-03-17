@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <title>Morgan</title>
     <style type="text/css">
 #{
@@ -11,32 +12,32 @@
     font-size: 45px; font-weight: 500; color: black;
 }
 li {
-    list-style: none; display: inline-block;}
-    li a{ color: rgb(27, 7, 7); font-size: 15px;}
-    </style>
-</head>
-<body>
-    <style>
-        body{
-            background-color: rgb(142, 207, 207);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: justify;
-            table-layout: auto;
-        }
 
     body{
-        background-color: rgb(142, 172, 202);
+        background-color: rgb(142, 207, 207);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: justify;
+        table-layout: auto;
     }
-    form{
-        text-align: left;
-    }
-    form{
-        width: 50px;
-    }
-    input{
-        margin:5px;
-    }
-    </style>
+
+body{
+    background-color: rgb(142, 172, 202);
+}
+form{
+    text-align: left;
+}
+form{
+    width: 50px;
+}
+input{
+    margin:5px;
+}
+
+    list-style: none; display: inline-block;}
+    li a{ color: rgb(27, 7, 7); font-size: 15px;}
+</style>
+</head>
+<body>
     <nav class="navbar">
 <div class="navdiv">
     <div class="logo"> <a href="#">M NET
@@ -47,10 +48,16 @@ li {
     <li> <button> <a href="contact.html" href="#"> Contact</a></button> </li>
     <li> <button> <a href="career.html" href="#"> Career</a></button> </li>
      <form action="apply.html">
-       <fieldset> <label for="email address">Email address</label>
-        <input type="email" id="email address " name="email address" required></fieldset> 
+        <div class="container">
+            <input type="email"
+            placeholder="email" required>
+            <input type="password"
+            placeholder="password" required>
+            <button>Login</button>
+             
+        </div>
      </form>
-     <button> <a href="contact.html">signin</a></button>
+     
     <button> <a href="contact.html"> sign up</a></button>
 </ul>
 </div>
