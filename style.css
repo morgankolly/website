@@ -1,0 +1,42 @@
+head{
+    background-color: aquamarine;
+}
+table{
+text-transform: uppercase;
+text-justify: newspaper;
+text-size-adjust: 50px;
+text-decoration-style: inherit;
+margin: 2%;
+padding: 2%;;
+}
+body{background:rgb(91, 94, 132);
+    text-shadow: 2%;
+}
+ul{
+background: rgb(148, 132, 132);
+text-decoration: line-through;
+text-justify: newspaper;
+padding: 2%;
+margin: 2%;
+
+}
+li{
+    text-justify: newspaper;
+    background: rgb(159, 160, 157);
+    margin: 0%;
+}
+button{
+    background-color: rgb(200, 175, 142);
+    text-transform: uppercase;
+    text-decoration-color: cadetblue;
+}
+form{
+    background: rgb(194, 169, 169);
+text-align:center;
+text-decoration: double;
+margin: 4%;
+padding: 10;
+font-size: 120%;
+font-weight: 100;
+color: rgb(31, 22, 9);
+}
